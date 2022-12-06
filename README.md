@@ -12,3 +12,18 @@ These are the following endpoints
 @GetMapping("/api.publicapis.org/entries/getDetailsByCategory")
 
 @GetMapping("/api.publicapis.org/entries/getTitleById")```
+
+
+1) I will import csvWriter.jar as a library in order to operate. Using delimiter (“,”) separated data
+2) Then by using the file will get the csv file from the local storage 
+3)After implementing the mathematical logic.
+4) will write the csv file in same or new location
+
+Answer 
+1:the challenge will be null pointer exception then arithematic error
+2:the formula might be using with wrong logic or might not work with edge cases
+
+Answer: 1)User might pass null values
+2) user might not follow the order to write the values
+3)user might enter the non valid values and get the exceptions
+
